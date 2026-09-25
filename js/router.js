@@ -1,0 +1,63 @@
+// =========================================================
+// ROUTER
+// URL ke # wale part ko dekh ke sahi page dikhata hai.
+// Example: index.html#/problems  ->  Problems page
+// Isse poori website ek hi HTML file mein chalti hai (Single Page App).
+// =========================================================
+const routes = {
+  dashboard: DashboardPage,
+  "plan/warmup": WarmupPage,
+  "plan/main": MainQuestPage,
+  plan2: Plan2Page,
+  videos: VideosPage,
+  problems: ProblemsPage,
+  profile: ProfilePage,
+  settings: SettingsPage,
+};
+
+let currentPage = null;
+
+async function renderRoute() {
+  // Purane page ki safai (jaise chalta hua setInterval band karna)
+  if (currentPage?.cleanup) currentPage.cleanup();
+
+  // "#/problems" -> "problems", "#/plan/main" -> "plan/main"
+  let pageName = location.hash.replace("#/", "") || "dashboard";
+  if (pageName === "plan") pageName = "plan/warmup"; // purane "#/plan" links ke liye
+  const page = routes[pageName] || routes.dashboard;
+  const app = document.getElementById("app");
+
+  // Sidebar mein active link highlight karo
+  document.querySelectorAll(".nav-link").forEach(link => {
+    link.classList.toggle("active", link.dataset.page === pageName);
+  });
+  // Plan group: kisi Plan page pe ho toh group khula aur parent highlighted
+  const inPlan = pageName.startsWith("plan/");
+  document.querySelector(".nav-parent")?.classList.toggle("active-parent", inPlan);
+  if (inPlan) document.getElementById("nav-plan")?.classList.add("open");
+
+  currentPage = page;
+  try {
+    app.innerHTML = await page.render();
+    if (page.afterRender) page.afterRender(); // buttons wagairah ke liye (aage kaam aayega)
+  } catch (err) {
+    app.innerHTML = `<p class="error">Could not load page: ${err.message}</p>`;
+    console.error(err);
+  }
+}
+
+// Plan pe click: agar pehle se Plan ke andar ho toh sirf group khol/band karo,
+// warna Warm-up page kholo (group apne aap khul jayega)
+document.addEventListener("click", e => {
+  const parent = e.target.closest(".nav-parent");
+  if (!parent) return;
+  const group = document.getElementById("nav-plan");
+  if (location.hash.startsWith("#/plan/")) {
+    e.preventDefault();
+    group.classList.toggle("open");
+  }
+});
+
+// Jab bhi URL ka # badle, ya page pehli baar khule
+window.addEventListener("hashchange", renderRoute);
+window.addEventListener("DOMContentLoaded", renderRoute);

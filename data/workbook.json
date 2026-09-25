@@ -1527,7 +1527,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*****\n*****\n*****\n*****\n*****"
   },
   {
     "id": "PS02",
@@ -1536,7 +1537,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*****\n*   *\n*   *\n*   *\n*****"
   },
   {
     "id": "PS03",
@@ -1545,7 +1547,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "********\n*      *\n*      *\n********"
   },
   {
     "id": "PS04",
@@ -1554,7 +1557,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*\n**\n***\n****\n*****"
   },
   {
     "id": "PS05",
@@ -1563,7 +1567,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*****\n****\n***\n**\n*"
   },
   {
     "id": "PS06",
@@ -1572,7 +1577,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *\n   **\n  ***\n ****\n*****"
   },
   {
     "id": "PS07",
@@ -1581,7 +1587,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*****\n ****\n  ***\n   **\n    *"
   },
   {
     "id": "PS08",
@@ -1590,7 +1597,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*\n**\n* *\n*  *\n*****"
   },
   {
     "id": "PS09",
@@ -1599,7 +1607,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*****\n*  *\n* *\n**\n*"
   },
   {
     "id": "PS10",
@@ -1608,7 +1617,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *\n   ***\n  *****\n *******\n*********"
   },
   {
     "id": "PS11",
@@ -1617,7 +1627,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*********\n *******\n  *****\n   ***\n    *"
   },
   {
     "id": "PS12",
@@ -1626,7 +1637,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *\n   * *\n  *   *\n *     *\n*********"
   },
   {
     "id": "PS13",
@@ -1635,7 +1647,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*********\n *     *\n  *   *\n   * *\n    *"
   },
   {
     "id": "PS14",
@@ -1644,7 +1657,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *\n   * *\n  * * *\n * * * *\n* * * * *"
   },
   {
     "id": "PS15",
@@ -1653,7 +1667,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "* * * * *\n * * * *\n  * * *\n   * *\n    *"
   },
   {
     "id": "PS16",
@@ -1662,7 +1677,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *****\n   *****\n  *****\n *****\n*****"
   },
   {
     "id": "PS17",
@@ -1671,7 +1687,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *****\n   *   *\n  *   *\n *   *\n*****"
   },
   {
     "id": "PS18",
@@ -1680,7 +1697,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*\n *\n  *\n   *\n    *"
   },
   {
     "id": "PS19",
@@ -1689,7 +1707,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "  *\n  *\n*****\n  *\n  *"
   },
   {
     "id": "PS20",
@@ -1698,7 +1717,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*   *\n * *\n  *\n * *\n*   *"
   },
   {
     "id": "PS21",
@@ -1707,7 +1727,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*****\n   *\n  *\n *\n*****"
   },
   {
     "id": "PS22",
@@ -1716,7 +1737,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*   *\n**  *\n* * *\n*  **\n*   *"
   },
   {
     "id": "PS23",
@@ -1725,7 +1747,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*      *\n**    **\n***  ***\n********\n********\n***  ***\n**    **\n*      *"
   },
   {
     "id": "PS24",
@@ -1734,7 +1757,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *\n   ***\n  *****\n *******\n*********\n *******\n  *****\n   ***\n    *"
   },
   {
     "id": "PS25",
@@ -1743,7 +1767,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *\n   * *\n  *   *\n *     *\n*       *\n *     *\n  *   *\n   * *\n    *"
   },
   {
     "id": "PS26",
@@ -1752,7 +1777,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*********\n *******\n  *****\n   ***\n    *\n   ***\n  *****\n *******\n*********"
   },
   {
     "id": "PS27",
@@ -1761,7 +1787,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "*\n**\n***\n****\n*****\n****\n***\n**\n*"
   },
   {
     "id": "PS28",
@@ -1770,7 +1797,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    *\n   **\n  ***\n ****\n*****\n ****\n  ***\n   **\n    *"
   },
   {
     "id": "PN01",
@@ -1779,7 +1807,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n12\n123\n1234\n12345"
   },
   {
     "id": "PN02",
@@ -1788,7 +1817,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "12345\n1234\n123\n12\n1"
   },
   {
     "id": "PN03",
@@ -1797,7 +1827,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n22\n333\n4444\n55555"
   },
   {
     "id": "PN04",
@@ -1806,7 +1837,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n21\n321\n4321\n54321"
   },
   {
     "id": "PN05",
@@ -1815,7 +1847,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    1\n   12\n  123\n 1234\n12345"
   },
   {
     "id": "PN06",
@@ -1824,7 +1857,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "5\n54\n543\n5432\n54321"
   },
   {
     "id": "PN07",
@@ -1833,7 +1867,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "54321\n5432\n543\n54\n5"
   },
   {
     "id": "PN08",
@@ -1842,7 +1877,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "12345\n12345\n12345\n12345\n12345"
   },
   {
     "id": "PN09",
@@ -1851,7 +1887,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "11111\n22222\n33333\n44444\n55555"
   },
   {
     "id": "PN10",
@@ -1860,7 +1897,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    1\n   121\n  12321\n 1234321\n123454321"
   },
   {
     "id": "PN11",
@@ -1869,7 +1907,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    1\n   2 2\n  3 3 3\n 4 4 4 4\n5 5 5 5 5"
   },
   {
     "id": "PN12",
@@ -1878,7 +1917,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "123454321\n 1234321\n  12321\n   121\n    1"
   },
   {
     "id": "PN13",
@@ -1887,7 +1927,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n2 3\n4 5 6\n7 8 9 10\n11 12 13 14 15"
   },
   {
     "id": "PN14",
@@ -1896,7 +1937,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n2 3\n6 5 4\n7 8 9 10\n15 14 13 12 11"
   },
   {
     "id": "PN15",
@@ -1905,7 +1947,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "        1\n      1   1\n    1   2   1\n  1   3   3   1\n1   4   6   4   1"
   },
   {
     "id": "PN16",
@@ -1914,7 +1957,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n1 1\n1 2 1\n1 3 3 1\n1 4 6 4 1"
   },
   {
     "id": "PN17",
@@ -1923,7 +1967,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n01\n101\n0101\n10101"
   },
   {
     "id": "PN18",
@@ -1932,7 +1977,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n10\n101\n1010\n10101"
   },
   {
     "id": "PN19",
@@ -1941,7 +1987,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n3 3\n5 5 5\n7 7 7 7\n9 9 9 9 9"
   },
   {
     "id": "PN20",
@@ -1950,7 +1997,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n2 3\n3 4 5\n4 5 6 7\n5 6 7 8 9"
   },
   {
     "id": "PN21",
@@ -1959,7 +2007,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n1 2\n1 2 4\n1 2 4 8\n1 2 4 8 16"
   },
   {
     "id": "PN22",
@@ -1968,7 +2017,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n4 9\n16 25 36\n49 64 81 100\n121 144 169 196 225"
   },
   {
     "id": "PN23",
@@ -1977,7 +2027,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1\n1*2\n1*2*3\n1*2*3*4\n1*2*3*4*5"
   },
   {
     "id": "PN24",
@@ -1986,7 +2037,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": " 1  2  3  4  5\n 6  7  8  9 10\n11 12 13 14 15\n16 17 18 19 20\n21 22 23 24 25"
   },
   {
     "id": "PN25",
@@ -1995,7 +2047,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": " 1  2  3  4  5\n10  9  8  7  6\n11 12 13 14 15\n20 19 18 17 16\n21 22 23 24 25"
   },
   {
     "id": "PN26",
@@ -2004,7 +2057,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": " 1  2  3  4\n12 13 14  5\n11 16 15  6\n10  9  8  7"
   },
   {
     "id": "PN27",
@@ -2013,7 +2067,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1 0 0 0 0\n0 1 0 0 0\n0 0 1 0 0\n0 0 0 1 0\n0 0 0 0 1"
   },
   {
     "id": "PN28",
@@ -2022,7 +2077,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "1      1\n12    21\n123  321\n12344321\n12344321\n123  321\n12    21\n1      1"
   },
   {
     "id": "PN29",
@@ -2031,7 +2087,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    1\n   121\n  12321\n 1234321\n123454321\n 1234321\n  12321\n   121\n    1"
   },
   {
     "id": "PN30",
@@ -2040,7 +2097,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "123454321\n 1234321\n  12321\n   121\n    1\n   121\n  12321\n 1234321\n123454321"
   },
   {
     "id": "PA01",
@@ -2049,7 +2107,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "A\nAB\nABC\nABCD\nABCDE"
   },
   {
     "id": "PA02",
@@ -2058,7 +2117,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "A\nBB\nCCC\nDDDD\nEEEEE"
   },
   {
     "id": "PA03",
@@ -2067,7 +2127,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "ABCDE\nABCD\nABC\nAB\nA"
   },
   {
     "id": "PA04",
@@ -2076,7 +2137,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "A\nB C\nD E F\nG H I J\nK L M N O"
   },
   {
     "id": "PA05",
@@ -2085,7 +2147,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    A\n   ABA\n  ABCBA\n ABCDCBA\nABCDEDCBA"
   },
   {
     "id": "PA06",
@@ -2094,7 +2157,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "E\nDE\nCDE\nBCDE\nABCDE"
   },
   {
     "id": "PA07",
@@ -2103,7 +2167,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "ABCDE\nABCDE\nABCDE\nABCDE\nABCDE"
   },
   {
     "id": "PA08",
@@ -2112,7 +2177,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "AAAAA\nBBBBB\nCCCCC\nDDDDD\nEEEEE"
   },
   {
     "id": "PA09",
@@ -2121,7 +2187,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "ABCDEDCBA\n ABCDCBA\n  ABCBA\n   ABA\n    A"
   },
   {
     "id": "PA10",
@@ -2130,7 +2197,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    A\n   AB\n  ABC\n ABCD\nABCDE"
   },
   {
     "id": "PA11",
@@ -2139,7 +2207,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "A\nBA\nCBA\nDCBA\nEDCBA"
   },
   {
     "id": "PA12",
@@ -2148,7 +2217,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    A\n   BBB\n  CCCCC\n DDDDDDD\nEEEEEEEEE"
   },
   {
     "id": "PA13",
@@ -2157,7 +2227,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "A      A\nAB    BA\nABC  CBA\nABCDDCBA\nABCDDCBA\nABC  CBA\nAB    BA\nA      A"
   },
   {
     "id": "PA14",
@@ -2166,7 +2237,8 @@
     "example": null,
     "source": [
       "workbook"
-    ]
+    ],
+    "output": "    A\n   ABA\n  ABCBA\n ABCDCBA\nABCDEDCBA\n ABCDCBA\n  ABCBA\n   ABA\n    A"
   },
   {
     "id": "AR01",
