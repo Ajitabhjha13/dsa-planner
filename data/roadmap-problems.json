@@ -1,0 +1,4514 @@
+[
+  {
+    "id": "P001",
+    "title": "Count Digits of a Number",
+    "topic": "Basic Maths for DSA",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P002",
+    "title": "Reverse a Number / Reverse Integer",
+    "topic": "Basic Maths for DSA",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      7
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P003",
+    "title": "Palindrome Number",
+    "topic": "Basic Maths for DSA",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      9
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P004",
+    "title": "GCD / LCM of Two Numbers",
+    "topic": "Basic Maths for DSA",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P005",
+    "title": "Check if a Number is Prime (basic + Sieve intro)",
+    "topic": "Basic Maths for DSA",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P006",
+    "title": "Print All Divisors of a Number",
+    "topic": "Basic Maths for DSA",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P007",
+    "title": "Largest Element in an Array",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "These 6 are warm-up — pure loop + math thinking. Don't overthink, just build the habit of dry-running on paper before coding. Next up: Arrays, the real foundation of everything else in this document.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P008",
+    "title": "Second Largest / Second Smallest Element",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P009",
+    "title": "Check if Array is Sorted",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P010",
+    "title": "Remove Duplicates from Sorted Array",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      26
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P011",
+    "title": "Left Rotate Array by One Place",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P012",
+    "title": "Left Rotate Array by D Places",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P013",
+    "title": "Move Zeroes to End",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      283
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P014",
+    "title": "Union of Two Sorted Arrays",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P015",
+    "title": "Missing Number in an Array (1 to N)",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      268
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P016",
+    "title": "Max Consecutive Ones",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      485
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P017",
+    "title": "Single Number (element appearing once)",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      136
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P018",
+    "title": "Longest Subarray with Given Sum K (positives only)",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P019",
+    "title": "Two Sum",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      1
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": "Everything so far is single-loop / two-pointer level. From the next question, we bring in HashMap-based thinking (storing what you've seen) — a slightly different mental model. Take a 5 min break, then continue.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P020",
+    "title": "Sort an Array of 0s, 1s and 2s (Dutch National Flag)",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      75
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P021",
+    "title": "Majority Element (>n/2 times) — Moore's Voting",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      169
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P022",
+    "title": "Maximum Subarray Sum — Kadane's Algorithm",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [
+      53
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": "Next is Kadane's Algorithm — it is a genuine turning point. This exact pattern (running sum, reset when negative) reappears in DP, matrix problems, and stock problems later. Spend real time understanding WHY it works, don't just memorize the code.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P023",
+    "title": "Print the Subarray with Maximum Sum",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 1,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P024",
+    "title": "Best Time to Buy and Sell Stock",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      121
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P025",
+    "title": "Rearrange Array Elements by Sign",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      2149
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P026",
+    "title": "Next Permutation",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      31
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P027",
+    "title": "Leaders in an Array",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P028",
+    "title": "Longest Consecutive Sequence",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      128
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P029",
+    "title": "Set Matrix Zeroes",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      73
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P030",
+    "title": "Rotate Matrix by 90 Degrees",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      48
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P031",
+    "title": "Pascal's Triangle",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      118
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P032",
+    "title": "3 Sum",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      15
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": "The next 4 (3Sum, 4Sum, subarray-with-0-sum, XOR-K) are all variations of the SAME idea: fixing one/two pointers and searching for the rest using a hashmap or two-pointer technique. Solve them back-to-back so you see the pattern repeat.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P033",
+    "title": "4 Sum",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      18
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P034",
+    "title": "Largest Subarray with Sum 0",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P035",
+    "title": "Count Subarrays with XOR Equal to K",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P036",
+    "title": "Merge Overlapping Sub-intervals",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      56
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P037",
+    "title": "Merge Two Sorted Arrays Without Extra Space",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P038",
+    "title": "Find the Repeating and Missing Number",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P039",
+    "title": "Count Inversions in an Array (Merge-Sort based)",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": "Wait to attempt this until AFTER you've watched the Merge Sort lecture (Month 2) — it directly reuses the merge step. If it comes up before that in your playlist, skip and come back.",
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P040",
+    "title": "Maximum Product Subarray",
+    "topic": "Arrays",
+    "roadmapMonth": 1,
+    "sprint": 2,
+    "leetcode": [
+      152
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P041",
+    "title": "Binary Search (basic)",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      704
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P042",
+    "title": "Lower Bound and Upper Bound",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P043",
+    "title": "Search Insert Position",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      35
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P044",
+    "title": "First and Last Occurrence in Sorted Array",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      34
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P045",
+    "title": "Search in Rotated Sorted Array",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      33
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P046",
+    "title": "Search in Rotated Sorted Array II (with duplicates)",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      81
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P047",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      153
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P048",
+    "title": "Single Element in a Sorted Array",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      540
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P049",
+    "title": "Find Peak Element",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      162
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "Everything above searches for a VALUE. From here we shift to 'Binary Search on the Answer' — you binary search over a range of possible answers instead of array indices. This mental shift trips up most beginners the first time, don't panic if it doesn't click immediately.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P050",
+    "title": "Square Root of a Number using Binary Search",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      69
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P051",
+    "title": "Koko Eating Bananas",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      875
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P052",
+    "title": "Aggressive Cows Problem",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P053",
+    "title": "Book Allocation Problem",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P054",
+    "title": "Median of Two Sorted Arrays",
+    "topic": "Binary Search on Arrays",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      4
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P055",
+    "title": "Selection Sort",
+    "topic": "Sorting Algorithms (implement, don't just use)",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P056",
+    "title": "Bubble Sort",
+    "topic": "Sorting Algorithms (implement, don't just use)",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P057",
+    "title": "Insertion Sort",
+    "topic": "Sorting Algorithms (implement, don't just use)",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P058",
+    "title": "Merge Sort",
+    "topic": "Sorting Algorithms (implement, don't just use)",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      912
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P059",
+    "title": "Quick Sort",
+    "topic": "Sorting Algorithms (implement, don't just use)",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      912
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P060",
+    "title": "Spiral Traversal of a Matrix",
+    "topic": "2D Arrays / Matrix",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      54
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "Code all 5 by hand at least once, even though you'll never write them in an interview directly — understanding merge/quicksort's recursion is a prerequisite for Divide & Conquer questions later (and Count Inversions from Month 1, if you skipped it).",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P061",
+    "title": "Search in a 2D Matrix",
+    "topic": "2D Arrays / Matrix",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [
+      74
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P062",
+    "title": "Row with Maximum Number of 1s",
+    "topic": "2D Arrays / Matrix",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P063",
+    "title": "Print Unique Rows in a Boolean Matrix",
+    "topic": "2D Arrays / Matrix",
+    "roadmapMonth": 2,
+    "sprint": 3,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P064",
+    "title": "Reverse Words in a String",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      151
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P065",
+    "title": "Check Palindrome String",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P066",
+    "title": "Largest Odd Number in a String",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      1903
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P067",
+    "title": "Longest Common Prefix",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      14
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P068",
+    "title": "Isomorphic Strings",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      205
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P069",
+    "title": "Check if a String is a Rotation of Another",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P070",
+    "title": "Check if Two Strings are Anagrams",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      242
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P071",
+    "title": "Sort Characters by Frequency",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      451
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P072",
+    "title": "Maximum Nesting Depth of Parentheses",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      1614
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P073",
+    "title": "Roman Number to Integer and vice-versa",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      13
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P074",
+    "title": "Implement atoi (String to Integer)",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      8
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P075",
+    "title": "Count and Say",
+    "topic": "Strings",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      38
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P076",
+    "title": "Print 1 to N Without Using a Loop",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "Rabin-Karp / KMP / Z-function are asked rarely at the 6-8 LPA level — mark them optional, come back only if you have spare time later. Don't get stuck here.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P077",
+    "title": "Factorial of a Number",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P078",
+    "title": "Sum of First N Numbers using Recursion",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P079",
+    "title": "Reverse an Array using Recursion",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P080",
+    "title": "Check Palindrome using Recursion",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P081",
+    "title": "Fibonacci Number using Recursion",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      509
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P082",
+    "title": "Subsets / Power Set",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      78
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "Everything above has ONE recursive call. Below, every problem branches into TWO or more recursive calls (pick / don't-pick). Before coding any of these, physically draw the recursion tree for a small input on paper — this single habit prevents 90% of the confusion beginners feel here.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P083",
+    "title": "Subsets II (with duplicates)",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      90
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P084",
+    "title": "Combination Sum",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      39
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P085",
+    "title": "Combination Sum II",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      40
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P086",
+    "title": "Permutations of an Array/String",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      46
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P087",
+    "title": "Palindrome Partitioning",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      131
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P088",
+    "title": "Kth Permutation Sequence",
+    "topic": "Recursion",
+    "roadmapMonth": 3,
+    "sprint": 4,
+    "leetcode": [
+      60
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P089",
+    "title": "Insert / Delete / Traverse a Singly Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P090",
+    "title": "Find Length of a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P091",
+    "title": "Search an Element in a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P092",
+    "title": "Reverse a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      206
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P093",
+    "title": "Find the Middle of a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      876
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P094",
+    "title": "Detect a Cycle in a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      141
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P095",
+    "title": "Find the Starting Point of the Loop",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      142
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P096",
+    "title": "Length of the Loop in a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P097",
+    "title": "Check if Linked List is a Palindrome",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      234
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P098",
+    "title": "Doubly Linked List — Insert/Delete",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P099",
+    "title": "Remove Nth Node From End of List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      19
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P100",
+    "title": "Delete the Middle Node of a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      2095
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P101",
+    "title": "Sort a Linked List (Merge Sort approach)",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      148
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P102",
+    "title": "Sort a Linked List of 0s, 1s and 2s",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P103",
+    "title": "Intersection Point of Two Linked Lists",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      160
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P104",
+    "title": "Add 1 to a Number Represented as a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P105",
+    "title": "Add Two Numbers Represented as Linked Lists",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      2
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P106",
+    "title": "Clone a Linked List with Random Pointer",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      138
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P107",
+    "title": "Reverse Linked List in Groups of K",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      25
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": "The next 4 are widely considered the trickiest pointer-manipulation problems in all of DSA. If you're mentally tired, stop here and resume tomorrow rather than pushing through — these need a fresh brain.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P108",
+    "title": "Rotate a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      61
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P109",
+    "title": "Flattening a Linked List",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P110",
+    "title": "Merge Two Sorted Linked Lists",
+    "topic": "Linked List",
+    "roadmapMonth": 4,
+    "sprint": 5,
+    "leetcode": [
+      21
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P111",
+    "title": "Implement Stack using Array",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P112",
+    "title": "Implement Stack using Queue",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      225
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P113",
+    "title": "Valid Parentheses",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      20
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P114",
+    "title": "Implement a Min Stack",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      155
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P115",
+    "title": "Next Greater Element",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      496
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P116",
+    "title": "Next Greater Element II (circular array)",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      503
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P117",
+    "title": "Next Smaller Element",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P118",
+    "title": "Trapping Rain Water",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      42
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": "Trapping Rain Water below is one of the most-repeated interview questions across ALL companies, not just top-tier ones. Solve it with the stack approach now — later (Month 8, DP/two-pointer section) you'll be able to solve it two more ways. That's normal and a great sign of growth, not a sign you 'forgot' it.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P119",
+    "title": "Sum of Subarray Minimums",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      907
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P120",
+    "title": "Asteroid Collision",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      735
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P121",
+    "title": "Largest Rectangle in Histogram",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      84
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P122",
+    "title": "Maximal Rectangle in Binary Matrix",
+    "topic": "Stack",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      85
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P123",
+    "title": "Implement Queue using Array",
+    "topic": "Queue",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P124",
+    "title": "Implement Queue using Stack",
+    "topic": "Queue",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      232
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P125",
+    "title": "Implement Circular Queue",
+    "topic": "Queue",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      622
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P126",
+    "title": "Sliding Window Maximum",
+    "topic": "Queue",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      239
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P127",
+    "title": "LRU Cache",
+    "topic": "Queue",
+    "roadmapMonth": 4,
+    "sprint": 6,
+    "leetcode": [
+      146
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": "One of THE most-asked design questions across product companies. Don't skip it even if it looks intimidating — do it slowly once, and it stays with you.",
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P128",
+    "title": "Preorder, Inorder, Postorder Traversal (recursive)",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      144,
+      94,
+      145
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P129",
+    "title": "Level Order Traversal (BFS)",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      102
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P130",
+    "title": "Iterative Pre/In/Postorder Traversal",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P131",
+    "title": "Height of a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      104
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P132",
+    "title": "Check if a Binary Tree is Height-Balanced",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      110
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P133",
+    "title": "Diameter of a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      543
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P134",
+    "title": "Maximum Path Sum in a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      124
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "From here, problems ask you to combine a traversal with extra bookkeeping (level number, position, boundary condition). Keep using the 'what does a node need from its children' question — it scales up perfectly to these.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P135",
+    "title": "Check if Two Trees are Identical",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      100
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P136",
+    "title": "Zig-Zag (Spiral) Level Order Traversal",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      103
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P137",
+    "title": "Boundary Traversal of a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P138",
+    "title": "Vertical Order Traversal",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      987
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P139",
+    "title": "Top View of a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P140",
+    "title": "Bottom View of a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P141",
+    "title": "Left View / Right View of a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      199
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P142",
+    "title": "Symmetric Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      101
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P143",
+    "title": "Root to Node Path in a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P144",
+    "title": "Lowest Common Ancestor in a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      236
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P145",
+    "title": "Maximum Width of a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      662
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P146",
+    "title": "Children Sum Property",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P147",
+    "title": "Print all Nodes at Distance K from a Given Node",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      863
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P148",
+    "title": "Minimum Time to Burn a Binary Tree from a Node",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P149",
+    "title": "Count Total Nodes in a Complete Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      222
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P150",
+    "title": "Construct Binary Tree from Inorder and Preorder",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      105
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P151",
+    "title": "Serialize and Deserialize a Binary Tree",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      297
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P152",
+    "title": "Flatten Binary Tree to Linked List",
+    "topic": "Binary Trees",
+    "roadmapMonth": 5,
+    "sprint": 7,
+    "leetcode": [
+      114
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P153",
+    "title": "Search in a BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      700
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P154",
+    "title": "Ceil and Floor in a BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P155",
+    "title": "Insert a Node into a BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      701
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P156",
+    "title": "Delete a Node from a BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      450
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P157",
+    "title": "Find Kth Smallest / Largest Element in a BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      230
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P158",
+    "title": "Check if a Tree is a Valid BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      98
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P159",
+    "title": "LCA in a BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      235
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P160",
+    "title": "Construct a BST from Preorder Traversal",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      1008
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "The last few BST questions are genuinely tricky — give them extra time, they're a common 'hard round 2' interview question even at the 6-8 LPA level.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P161",
+    "title": "Inorder Successor / Predecessor in a BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P162",
+    "title": "Merge Two BSTs",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P163",
+    "title": "Two Sum in a BST",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      653
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P164",
+    "title": "Recover BST (two nodes swapped by mistake)",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [
+      99
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P165",
+    "title": "Largest BST in a Binary Tree",
+    "topic": "Binary Search Trees (BST)",
+    "roadmapMonth": 5,
+    "sprint": 8,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P166",
+    "title": "Implement a Max-Heap and Min-Heap from scratch",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P167",
+    "title": "Heap Sort",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P168",
+    "title": "Kth Largest Element in an Array",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      215
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P169",
+    "title": "Kth Smallest Element in an Array",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P170",
+    "title": "Sort a Nearly Sorted (K-sorted) Array",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P171",
+    "title": "K Closest Points to Origin",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      973
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P172",
+    "title": "Top K Frequent Elements",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      347
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P173",
+    "title": "Merge K Sorted Arrays / Lists",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      23
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P174",
+    "title": "Find Median from a Data Stream",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      295
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P175",
+    "title": "Task Scheduler",
+    "topic": "Heap / Priority Queue",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      621
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P176",
+    "title": "Count Frequency of Array Elements",
+    "topic": "Hashing (deeper patterns beyond Month 1 basics)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P177",
+    "title": "Group Anagrams",
+    "topic": "Hashing (deeper patterns beyond Month 1 basics)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      49
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P178",
+    "title": "Subarray Sum Equals K",
+    "topic": "Hashing (deeper patterns beyond Month 1 basics)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      560
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P179",
+    "title": "Count Distinct Elements in Every Window of Size K",
+    "topic": "Hashing (deeper patterns beyond Month 1 basics)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P180",
+    "title": "4Sum II",
+    "topic": "Hashing (deeper patterns beyond Month 1 basics)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      454
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P181",
+    "title": "Implement Trie (Insert / Search / StartsWith)",
+    "topic": "Trie",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      208
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P182",
+    "title": "Implement Trie-II (Count Prefixes, Erase Word)",
+    "topic": "Trie",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P183",
+    "title": "Longest Word with All Prefixes Present",
+    "topic": "Trie",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P184",
+    "title": "Word Break (using Trie / DP)",
+    "topic": "Trie",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      139
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P185",
+    "title": "Maximum XOR of Two Numbers in an Array",
+    "topic": "Trie",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      421
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P186",
+    "title": "Rat in a Maze",
+    "topic": "Backtracking (grid / constraint based)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P187",
+    "title": "N-Queens Problem",
+    "topic": "Backtracking (grid / constraint based)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      51
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P188",
+    "title": "Sudoku Solver",
+    "topic": "Backtracking (grid / constraint based)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      37
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P189",
+    "title": "Word Search in a Grid",
+    "topic": "Backtracking (grid / constraint based)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [
+      79
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P190",
+    "title": "M-Coloring Problem",
+    "topic": "Backtracking (grid / constraint based)",
+    "roadmapMonth": 6,
+    "sprint": 9,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P191",
+    "title": "Graph Representation (Adjacency List/Matrix)",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P192",
+    "title": "BFS of a Graph",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P193",
+    "title": "DFS of a Graph",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P194",
+    "title": "Number of Provinces (Connected Components)",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [
+      547
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P195",
+    "title": "Number of Islands",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [
+      200
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P196",
+    "title": "Flood Fill Algorithm",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [
+      733
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P197",
+    "title": "Rotten Oranges (multi-source BFS)",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [
+      994
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P198",
+    "title": "Detect Cycle in an Undirected Graph (BFS & DFS)",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "Every grid problem above reused the same BFS/DFS skeleton. Now we add a new goal on top of that skeleton: detecting cycles. This needs you to track the 'parent' node carefully — a common source of bugs, go slow.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P199",
+    "title": "Detect Cycle in a Directed Graph",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P200",
+    "title": "Topological Sort (Kahn's BFS Algo & DFS Algo)",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P201",
+    "title": "Course Schedule",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [
+      207
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P202",
+    "title": "Course Schedule II",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [
+      210
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P203",
+    "title": "Check if Graph is Bipartite",
+    "topic": "Graph Basics + Traversals",
+    "roadmapMonth": 7,
+    "sprint": 10,
+    "leetcode": [
+      785
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P204",
+    "title": "Shortest Path in Undirected Graph (unit weights)",
+    "topic": "Shortest Path Algorithms",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "Next up: Shortest Path algorithms. This is a genuinely different mental model — 'relaxation' of edges instead of simple visited-marking. Don't rush; give Dijkstra a full session on its own.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P205",
+    "title": "Shortest Path in a DAG",
+    "topic": "Shortest Path Algorithms",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P206",
+    "title": "Dijkstra's Algorithm",
+    "topic": "Shortest Path Algorithms",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [
+      743
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P207",
+    "title": "Bellman-Ford Algorithm",
+    "topic": "Shortest Path Algorithms",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P208",
+    "title": "Floyd-Warshall Algorithm",
+    "topic": "Shortest Path Algorithms",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P209",
+    "title": "Number of Ways to Arrive at Destination",
+    "topic": "Shortest Path Algorithms",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [
+      1976
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P210",
+    "title": "Minimum Spanning Tree — Prim's Algorithm",
+    "topic": "Minimum Spanning Tree + Disjoint Set + Advanced",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P211",
+    "title": "Kruskal's Algorithm (with Disjoint Set Union)",
+    "topic": "Minimum Spanning Tree + Disjoint Set + Advanced",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P212",
+    "title": "Number of Islands II (DSU-based)",
+    "topic": "Minimum Spanning Tree + Disjoint Set + Advanced",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P213",
+    "title": "Accounts Merge",
+    "topic": "Minimum Spanning Tree + Disjoint Set + Advanced",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [
+      721
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P214",
+    "title": "Strongly Connected Components — Kosaraju's Algorithm",
+    "topic": "Minimum Spanning Tree + Disjoint Set + Advanced",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P215",
+    "title": "Bridges in a Graph",
+    "topic": "Minimum Spanning Tree + Disjoint Set + Advanced",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [
+      1192
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P216",
+    "title": "Articulation Points in a Graph",
+    "topic": "Minimum Spanning Tree + Disjoint Set + Advanced",
+    "roadmapMonth": 7,
+    "sprint": 11,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P217",
+    "title": "Climbing Stairs",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      70
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P218",
+    "title": "Frog Jump",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P219",
+    "title": "House Robber",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      198
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P220",
+    "title": "House Robber II (circular)",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      213
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P221",
+    "title": "Ninja's Training (2D non-adjacent max sum)",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "Moving to 2D Grid DP now — the DP table has TWO changing variables instead of one. Draw the grid on paper before coding any of these.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P222",
+    "title": "Unique Paths",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      62
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P223",
+    "title": "Unique Paths II (with obstacles)",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      63
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P224",
+    "title": "Minimum Path Sum",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      64
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P225",
+    "title": "Triangle — Minimum Path Sum",
+    "topic": "1D DP",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      120
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P226",
+    "title": "Subset Sum Equal to Target",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "This is the big one: DP on Subsequences. The majority of DP questions actually asked in 6-8 LPA interviews live in this exact section. Take your time — don't rush to Month 8's later sections until this feels solid.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P227",
+    "title": "Partition Equal Subset Sum",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      416
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P228",
+    "title": "Partition Array into Two Subsets with Minimum Difference",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P229",
+    "title": "Count Subsets with Sum K",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P230",
+    "title": "0/1 Knapsack",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P231",
+    "title": "Unbounded Knapsack",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P232",
+    "title": "Coin Change (minimum coins)",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      322
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P233",
+    "title": "Coin Change II (number of ways)",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      518
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P234",
+    "title": "Target Sum",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      494
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P235",
+    "title": "Longest Common Subsequence",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      1143
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P236",
+    "title": "Longest Common Substring",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P237",
+    "title": "Print the Longest Common Subsequence",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P238",
+    "title": "Shortest Common Supersequence",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      1092
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P239",
+    "title": "Edit Distance",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      72
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P240",
+    "title": "Distinct Subsequences",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      115
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P241",
+    "title": "Wildcard Matching",
+    "topic": "DP on Subsequences",
+    "roadmapMonth": 8,
+    "sprint": 12,
+    "leetcode": [
+      44
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P242",
+    "title": "Best Time to Buy/Sell Stock II (multiple transactions)",
+    "topic": "DP on Stocks",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      122
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": "DP on Stocks and DP on LIS are two more separate patterns — keep them mentally distinct from the subsequence-DP you just did, don't force-fit the same template.",
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P243",
+    "title": "Best Time to Buy/Sell Stock III (at most 2 transactions)",
+    "topic": "DP on Stocks",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      123
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P244",
+    "title": "Best Time to Buy/Sell Stock IV (at most K transactions)",
+    "topic": "DP on Stocks",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      188
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P245",
+    "title": "Best Time to Buy/Sell Stock with Cooldown",
+    "topic": "DP on Stocks",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      309
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P246",
+    "title": "Longest Increasing Subsequence",
+    "topic": "DP on LIS + Misc Advanced DP",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      300
+    ],
+    "gfg": true,
+    "highFrequency": true,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P247",
+    "title": "Largest Divisible Subset",
+    "topic": "DP on LIS + Misc Advanced DP",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      368
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P248",
+    "title": "Longest String Chain",
+    "topic": "DP on LIS + Misc Advanced DP",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      1048
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P249",
+    "title": "Matrix Chain Multiplication",
+    "topic": "DP on LIS + Misc Advanced DP",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P250",
+    "title": "Palindrome Partitioning II (minimum cuts)",
+    "topic": "DP on LIS + Misc Advanced DP",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      132
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P251",
+    "title": "Maximal Rectangle in Binary Matrix (DP + stack lens)",
+    "topic": "DP on LIS + Misc Advanced DP",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      85
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": "Same problem as Month 4 — solve it again from scratch without looking at your old code. If it's fast this time, that's proof your fundamentals compounded.",
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P252",
+    "title": "Assign Cookies",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      455
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P253",
+    "title": "Fractional Knapsack",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P254",
+    "title": "Job Sequencing Problem",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P255",
+    "title": "N Meetings in One Room / Activity Selection",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P256",
+    "title": "Minimum Number of Platforms",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P257",
+    "title": "Jump Game",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      55
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P258",
+    "title": "Jump Game II",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      45
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P259",
+    "title": "Gas Station",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      134
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P260",
+    "title": "Candy",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      135
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": true,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  },
+  {
+    "id": "P261",
+    "title": "Insert Interval",
+    "topic": "Greedy",
+    "roadmapMonth": 8,
+    "sprint": 13,
+    "leetcode": [
+      57
+    ],
+    "gfg": true,
+    "highFrequency": false,
+    "optional": false,
+    "adviceBefore": null,
+    "note": null,
+    "source": [
+      "roadmap"
+    ]
+  }
+]

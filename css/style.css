@@ -1,0 +1,16 @@
+/* Step 1: sirf basic styling. Poora design Step 2 mein aayega. */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0b0d12;
+  color: #e6e8ee;
+}
+.setup-check {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 24px;
+  background: #151923;
+  border-radius: 12px;
+}
+.ok { color: #4ade80; }
+.err { color: #f87171; }
