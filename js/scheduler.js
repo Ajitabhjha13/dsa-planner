@@ -84,7 +84,7 @@ const Scheduler = {
     return (await Data.videos())
       .filter(v => (v.tier || "core") === mode)
       .map(v => ({
-        id: v.id, type: "lecture", title: v.title,
+        id: v.id, type: "lecture", title: v.title, videoId: v.videoId, position: v.position,
         // Video length / speed x multiplier = asli padhai ka time
         minutes: Math.round((v.durationSec / 60 / s.playbackSpeed) * s.studyMultiplier),
       }));

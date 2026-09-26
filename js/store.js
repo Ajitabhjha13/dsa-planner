@@ -39,6 +39,8 @@ const DEFAULT_STATE = {
   // Har question ki apni notes:
   // { "Q013": { solution, hints: [], keyPoints, notes, help: "self" | "help", statement } }
   notes: {},
+  // Imported playlist: { playlistId, title, importedAt, items: [{ id, videoId, title, durationSec, position, tier }] }
+  videos: null,
 };
 
 const Store = {
@@ -49,7 +51,7 @@ const Store = {
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
       // Default ke upar saved data merge karo, taaki naye fields bhi mil jayein
       this.state = saved
-        ? { ...DEFAULT_STATE, ...saved, settings: { ...DEFAULT_STATE.settings, ...saved.settings }, progress: saved.progress || {}, warmup: { ...DEFAULT_STATE.warmup, ...saved.warmup }, log: saved.log || {}, review: saved.review || {}, notes: saved.notes || {} }
+        ? { ...DEFAULT_STATE, ...saved, settings: { ...DEFAULT_STATE.settings, ...saved.settings }, progress: saved.progress || {}, warmup: { ...DEFAULT_STATE.warmup, ...saved.warmup }, log: saved.log || {}, review: saved.review || {}, notes: saved.notes || {}, videos: saved.videos || null }
         : structuredClone(DEFAULT_STATE);
     } catch {
       this.state = structuredClone(DEFAULT_STATE);

@@ -49,6 +49,9 @@ const DashboardPage = {
   },
 
   links(t) {
+    if (t.type === "lecture") {
+      return `<a href="${YouTube.watchUrl(t.videoId)}" target="_blank" rel="noopener">Watch on YouTube ↗</a>`;
+    }
     if (t.type !== "main") return "";
     const q = encodeURIComponent(t.title);
     const lc = t.leetcode?.slug
@@ -74,7 +77,7 @@ const DashboardPage = {
           <div class="dtask-title">${badge}<button class="title-btn" data-action="open">${esc(t.title)}</button>${hf}</div>
           <div class="dtask-meta">
             <span>~${t.minutes} min</span>
-            ${t.type === "main" ? `<span class="dot">•</span> ${this.links(t)}` : ""}
+            ${t.type !== "warmup" ? `<span class="dot">•</span> ${this.links(t)}` : ""}
             ${t.type === "warmup" && !done ? `<span class="dot">•</span> <button class="linkbtn" data-action="easy">Too easy</button>` : ""}
           </div>
           ${tip}
@@ -221,7 +224,14 @@ const DashboardPage = {
           if (!Tracker.isDone(task)) Tracker.toggleDone(task);
           Warmup.markTooEasy(task.id);
           break;
-        case "open": QuestionPanel.open(task); return;
+        case "open":
+          if (task.type === "lecture") {
+            const v = (await Data.videos()).find(x => x.id === task.id);
+            if (v) window.open(YouTube.watchUrl(v.videoId), "_blank", "noopener");
+            return;
+          }
+          QuestionPanel.open(task);
+          return;
         case "pull": await this.pullNext(); break;
         case "refresh": await this.refreshToday(); break;
         default: return;

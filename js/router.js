@@ -9,13 +9,27 @@ const routes = {
   "plan/warmup": WarmupPage,
   "plan/main": MainQuestPage,
   plan2: Plan2Page,
-  videos: VideosPage,
+  lectures: VideosPage,
   problems: ProblemsPage,
   profile: ProfilePage,
   settings: SettingsPage,
 };
 
 let currentPage = null;
+
+// ---------- TOAST: chhota popup jo kahin bhi click karne pe ya 4 sec mein gayab ----------
+function showToast(msg) {
+  document.querySelector(".gtoast")?.remove();
+  const t = document.createElement("div");
+  t.className = "gtoast";
+  t.setAttribute("role", "status");
+  t.textContent = msg;
+  document.body.appendChild(t);
+  requestAnimationFrame(() => t.classList.add("show"));
+  const hide = () => { t.classList.remove("show"); setTimeout(() => t.remove(), 200); document.removeEventListener("click", hide, true); };
+  setTimeout(() => document.addEventListener("click", hide, true), 50);
+  setTimeout(hide, 4000);
+}
 
 async function renderRoute() {
   // Purane page ki safai (jaise chalta hua setInterval band karna)
@@ -24,6 +38,7 @@ async function renderRoute() {
   // "#/problems" -> "problems", "#/plan/main" -> "plan/main"
   let pageName = location.hash.replace("#/", "") || "dashboard";
   if (pageName === "plan") pageName = "plan/warmup"; // purane "#/plan" links ke liye
+  if (pageName === "videos") pageName = "lectures";   // purana naam
   const page = routes[pageName] || routes.dashboard;
   const app = document.getElementById("app");
 

@@ -22,9 +22,8 @@ const Data = {
   statements() { return this.load("statements"); },
   workbook() { return this.load("workbook"); },
 
-  // Videos Step 5 mein import honge. Tab tak khaali list.
+  // Lectures: YouTube se import hoke Store mein save hote hain (Videos page)
   async videos() {
-    try { return await this.load("videos"); }
-    catch { return (this.cache.videos = []); } // file nahi hai: baar-baar request mat bhejo
+    return Store.state.videos?.items || [];
   },
 };
