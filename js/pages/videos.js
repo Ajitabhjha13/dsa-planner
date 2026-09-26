@@ -336,6 +336,7 @@ const VideosPage = {
           const secs = this.parseClock(val);
           if (secs === null) { showToast("That time format did not work. Try something like 23:40."); return; }
           pr().resumeAt = secs;
+          pr().lastTouched = Date.now();
           Store.save();
           showToast(`Saved. Resume at ${this.fmtClock(secs)}.`);
           break;

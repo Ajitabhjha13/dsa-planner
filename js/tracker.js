@@ -2,9 +2,21 @@
 // TRACKER: Done / Undo, timer, roz ka log aur streak
 // =========================================================
 const Tracker = {
+  // Roz ka poora hisaab (Activity calendar ke hover mein yahi dikhta hai):
+  // { seconds, done, warmup, main, lecture, estMin, contests, contestsPassed, contestSecs }
   dayLog(date = todayStr()) {
-    Store.state.log[date] ??= { seconds: 0, done: 0 };
-    return Store.state.log[date];
+    const l = (Store.state.log[date] ??= {});
+    for (const k of ["seconds", "done", "warmup", "main", "lecture", "estMin", "contests", "contestsPassed", "contestSecs"]) l[k] ??= 0;
+    return l;
+  },
+
+  // Task ka estimate (minutes), activity level nikalne ke liye
+  estimateFor(task) {
+    if (task.type === "warmup") return WARMUP_MINUTES;
+    if (task.type === "main") return (Data.cache.problems || []).find(p => p.id === task.id)?.minutes || 30;
+    const v = (Store.state.videos?.items || []).find(x => x.id === task.id);
+    const s = Store.settings;
+    return v ? Math.round((v.durationSec / 60 / s.playbackSpeed) * s.studyMultiplier) : 30;
   },
 
   isDone(task) {
@@ -24,6 +36,8 @@ const Tracker = {
       if (task.type === "warmup") Warmup.unmarkDone(task.id);
       else Store.state.progress[task.id].status = "pending";
       log.done = Math.max(0, log.done - 1);
+      log[task.type] = Math.max(0, log[task.type] - 1);
+      log.estMin = Math.max(0, log.estMin - this.estimateFor(task));
     } else {
       if (task.type === "warmup") Warmup.markDone(task.id);
       else {
@@ -32,7 +46,10 @@ const Tracker = {
         p.doneOn = todayStr();
       }
       log.done++;
+      log[task.type]++;
+      log.estMin += this.estimateFor(task);
     }
+    Store.state.lastActive = new Date().toISOString();
     Store.save();
   },
 
@@ -51,8 +68,10 @@ const Tracker = {
     const secs = Math.round((Date.now() - t.startedAt) / 1000);
     const p = (Store.state.progress[t.taskId] ??= { status: "pending", timeSpent: 0 });
     p.timeSpent = (p.timeSpent || 0) + secs;
+    p.lastTouched = Date.now(); // "Continue where you left off" ke liye
     this.dayLog().seconds += secs;
     Store.state.timer = null;
+    Store.state.lastActive = new Date().toISOString();
     Store.save();
   },
 
@@ -71,16 +90,39 @@ const Tracker = {
 
   // Streak: lagatar kitne din kam se kam 1 task done hua.
   // Aaj abhi tak kuch nahi kiya toh bhi kal tak ki streak zinda hai.
-  streak() {
-    let d = parseDate(todayStr());
-    if (!(Store.state.log[formatDate(d)]?.done > 0)) d = addDays(d, -1);
-    let count = 0;
-    while (Store.state.log[formatDate(d)]?.done > 0) {
-      count++;
-      d = addDays(d, -1);
-    }
-    return count;
+  // ---------------- STREAK (freeze ke saath) ----------------
+  // Rules:
+  //   - kaam kiya (done > 0)          → streak +1
+  //   - rest day (0 hours)            → na +1, na toot-ta
+  //   - study day miss kiya           → hafte ka ❄️ freeze lag jaata hai (hafte mein 1)
+  //   - freeze pehle hi use ho gaya   → streak 0
+  //   - aaj abhi tak kuch nahi kiya   → streak zinda (din abhi baaki hai)
+  weekKey(date) {
+    const d = parseDate(date);
+    return formatDate(addDays(d, -((d.getDay() + 6) % 7))); // us hafte ka Monday
   },
+
+  streakInfo() {
+    const log = Store.state.log;
+    const today = todayStr();
+    const logged = Object.keys(log).filter(k => log[k]?.done > 0).sort();
+    const startKey = [Store.settings.startDate, logged[0]].filter(Boolean).sort()[0] || today;
+    const used = {}, frozen = new Set();
+    let run = 0, best = 0;
+    for (let d = parseDate(startKey); formatDate(d) <= today; d = addDays(d, 1)) {
+      const k = formatDate(d);
+      if (log[k]?.done > 0) { run++; best = Math.max(best, run); continue; }
+      if (k === today) continue;
+      if (Store.settings.hours[DAY_KEYS[d.getDay()]] === 0) continue;
+      const wk = this.weekKey(k);
+      if (run > 0 && !used[wk]) { used[wk] = true; frozen.add(k); continue; }
+      run = 0;
+    }
+    return { current: run, best, frozen, freezeLeft: used[this.weekKey(today)] ? 0 : 1 };
+  },
+
+  streak() { return this.streakInfo().current; },
+  bestStreak() { return this.streakInfo().best; },
 };
 
 function formatDuration(secs) {

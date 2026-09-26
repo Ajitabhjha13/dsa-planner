@@ -42,6 +42,10 @@
               <svg viewBox="0 0 24 24"><path d="M4 21V4M4 4h12l-2 4 2 4H4"/></svg>
               <span>Main Quest</span>
             </a>
+            <a href="#/contest" class="nav-link nav-child" data-page="contest">
+              <svg viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0V4zM7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg>
+              <span>Contests</span>
+            </a>
           </div>
         </div>
         <a href="#/plan2" class="nav-link" data-page="plan2">
@@ -75,6 +79,9 @@
       </div>
     </aside>
 
+    <!-- Contest chalu ho toh yeh patti sidebar ke upar dikhti hai -->
+    <div class="contest-lock" aria-hidden="true">🏆 Contest in progress. Other features are paused.</div>
+
     <!-- ===== MAIN CONTENT (yahan pages render hote hain) ===== -->
     <main id="app" class="main"></main>
   </div>
@@ -86,12 +93,15 @@
   <script src="js/scheduler.js"></script>
   <script src="js/tracker.js"></script>
   <script src="js/youtube.js"></script>
+  <script src="js/contest.js"></script>
+  <script src="js/insights.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
   <script src="js/panel.js"></script>
   <script src="js/pages/dashboard.js"></script>
   <script src="js/pages/plan.js"></script>
   <script src="js/pages/quest.js"></script>
   <script src="js/pages/planpage.js"></script>
+  <script src="js/pages/contest.js"></script>
   <script src="js/pages/videos.js"></script>
   <script src="js/pages/problems.js"></script>
   <script src="js/pages/profile.js"></script>

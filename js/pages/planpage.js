@@ -126,6 +126,17 @@ const WarmupPage = {
         </section>
       </div>
 
+      <h3 class="section-title" style="margin:24px 0 10px">🏆 Warm-up contests <span class="muted small">3 random questions · 45 min · unlocks when a category is fully solved</span></h3>
+      <div class="wcontests">${(await Promise.all(WARMUP_CATEGORIES.map(async c => {
+        const st = await Contest.warmupStatus(c);
+        const rec = Contest.record("warmup", c);
+        return `<div class="card wcontest ${st.unlocked ? "open" : ""}">
+          <b>${c}</b>
+          <span class="muted small">${st.unlocked ? (rec.taken ? `${rec.passed}/${rec.taken} passed` : "Ready") : `🔒 ${st.done}/${st.total} solved`}</span>
+          ${st.unlocked ? `<button class="btn btn-sm btn-primary" data-action="wcontest" data-cat="${c}">Start</button>` : ""}
+        </div>`;
+      }))).join("")}</div>
+
       <details class="bank" ${f.q || f.cat !== "all" || f.status !== "all" ? "open" : ""}>
         <summary><span>📚 Full question bank</span><span class="muted">${wb.length} questions</span></summary>
         <div class="bank-filters">
@@ -185,6 +196,10 @@ const WarmupPage = {
           Store.save();
           break;
         case "uneasy": Warmup.undoTooEasy(task.id); break;
+        case "wcontest":
+          if (confirm(`Start the ${btn.dataset.cat} contest? 3 random questions, 45 minutes. Other features will be paused until you submit.`))
+            await Contest.start("warmup", btn.dataset.cat);
+          return;
         case "surprise": {
           const pool = (await Data.workbook()).filter(x => Warmup.isActive(x.id) && !Store.state.warmup.done[x.id]);
           const pick = pool[Math.floor(Math.random() * pool.length)];

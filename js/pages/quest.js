@@ -144,19 +144,40 @@ const QuestTree = {
             <span class="qbar"><span style="width:${c.pct}%"></span></span>
             <span class="qcount">${c.done}/${c.total}</span>
           </summary>
-          <div class="qtopic-body">${groups}</div>
+          <div class="qtopic-body">${groups}${mode === "core" ? this.contestCard(t.name, c) : ""}</div>
         </details>`;
     }).join("");
 
     return header + toolbar + `<div class="qtree">${topicsHtml}</div>`;
   },
 
+  contestCard(topic, c) {
+    const rec = Contest.record("topic", topic);
+    const unlocked = c.total > 0 && c.done === c.total;
+    return `
+      <div class="contest-card ${unlocked ? "open" : ""}">
+        <span class="trophy">🏆</span>
+        <div class="grow">
+          <b>${esc(topic)} Contest</b>
+          <span class="muted small">· 3 random problems · 2 hours${rec.taken ? ` · ${rec.passed}/${rec.taken} passed` : ""}</span>
+        </div>
+        ${unlocked
+          ? `<button class="btn btn-sm btn-primary" data-action="contest" data-topic="${esc(topic)}">Start contest</button>`
+          : `<span class="muted small">🔒 Unlocks when ${esc(topic)} is complete (${c.done}/${c.total})</span>`}
+      </div>`;
+  },
+
   async headerCore(problems, all, plan, todayIds, next) {
     const pace = this.pace(all.total, all.done);
+    const tasks = await Scheduler.mainQuestTasks("core");
+    const leftMin = tasks.filter(t => this.status(t.id) === "pending").reduce((a, t) => a + t.minutes, 0);
+    const daily = Scheduler.dailySplit(plan).main;
+    const finish = plan.mainEnd || plan.endDate;
+    const diff = daysBetween(parseDate(finish), parseDate(Store.settings.targetDate));
+    const fmtH = m => m >= 60 ? `${Math.floor(m / 60)}h${m % 60 ? ` ${m % 60}m` : ""}` : `${m}m`;
     const sp = Scheduler.speedFactor();
     const todayItems = problems.filter(p => todayIds.has(p.id));
     const todayDone = todayItems.filter(p => this.status(p.id) === "done").length;
-    const late = plan.lateBy > 0;
     const paceText = pace.diff > 0 ? `<b class="ok">${pace.diff} ahead</b>` : pace.diff < 0 ? `<b class="late">${-pace.diff} behind</b>` : `<b>Right on pace</b>`;
 
     return `
@@ -166,12 +187,14 @@ const QuestTree = {
         <div class="card ring-card">
           ${ringHtml(all.pct)}
           <div class="grow">
-            <div class="muted small">OVERALL PROGRESS</div>
-            <div class="big"><b>${all.done}</b> / ${all.total} problems</div>
+            <div class="muted small">PROBLEMS</div>
+            <div class="big"><b>${all.done}</b> / ${all.total} solved</div>
             <div class="stat-lines">
-              <div><span>Projected finish</span><b class="${late ? "late" : ""}">${prettyDate(plan.mainEnd || plan.endDate)}</b></div>
+              <div><span>Time left</span><b>~${fmtH(leftMin)}</b></div>
+              <div><span>Problem time per day (now)</span><b>~${fmtH(daily)}/day</b></div>
+              <div><span>Finish</span><b>${prettyDate(finish)}</b></div>
               <div><span>Target</span><b>${prettyDate(Store.settings.targetDate)}</b></div>
-              <div><span>Status</span><b class="${late ? "late" : "ok"}">${late ? `${plan.lateBy} days late` : "On track"}</b></div>
+              <div><span>Result</span><b class="${diff >= 0 ? "ok" : "late"}">${diff >= 0 ? `${diff} days early` : `${-diff} days late`}</b></div>
             </div>
           </div>
         </div>
@@ -191,6 +214,7 @@ const QuestTree = {
           <div class="qhead-actions">
             ${next ? `<button class="btn btn-primary" data-action="continue">Continue → ${esc(next.title)}</button>` : `<span class="ok">🎉 All done!</span>`}
             <button class="btn" data-action="revision">🧠 Revision Mode</button>
+            <a class="btn" href="#/contest">🏆 Contests</a>
           </div>
         </div>
       </div>`;
@@ -313,6 +337,10 @@ const QuestTree = {
       switch (btn.dataset.action) {
         case "open": QuestionPanel.open(task); return;
         case "open-notes": QuestionPanel.open(task, "notes"); return;
+        case "contest":
+          if (confirm(`Start the ${btn.dataset.topic} Contest? You get 3 random problems and 2 hours. Other features of this website will be paused until you submit.`))
+            await Contest.start("topic", btn.dataset.topic);
+          return;
         case "done": Tracker.toggleDone(task); break;
         case "review":
           if (Store.state.review[task.id]) delete Store.state.review[task.id];

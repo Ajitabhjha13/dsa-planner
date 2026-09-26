@@ -77,7 +77,11 @@ const QuestionPanel = {
     const review = !!Store.state.review[t.id];
     const running = Tracker.timer?.taskId === t.id;
     const skipped = Store.state.progress[t.id]?.status === "skipped";
-    const tabs = [["question", "Question"], ["solution", "My Solution"], ["hints", "Hints"], ["notes", "Notes"]];
+    const inContest = !!Contest.active;
+    // No peeking: contest ke dauran sirf Question tab
+    const tabs = inContest ? [["question", "Question"]]
+      : [["question", "Question"], ["solution", "My Solution"], ["hints", "Hints"], ["notes", "Notes"]];
+    if (inContest) this.tab = "question";
 
     document.querySelector("#qpanel .qp").innerHTML = `
       <header class="qp-head">
@@ -91,6 +95,8 @@ const QuestionPanel = {
         </nav>
       </header>
       <div class="qp-body">${this[`tab_${this.tab}`]()}</div>
+      ${inContest ? `<footer class="qp-foot"><span class="muted small">🏆 Contest mode: solutions, hints and notes are hidden.</span>
+        <button class="btn btn-sm btn-primary" data-qp="close">Back to contest</button></footer>` : `
       <footer class="qp-foot">
         <span class="qp-time" data-qp-elapsed>${this.timeText()}</span>
         <div class="qp-actions">
@@ -99,7 +105,7 @@ const QuestionPanel = {
           <button class="btn btn-sm ${review ? "btn-review" : ""}" data-qp="review" title="Mark for the review round">🔁 ${review ? "In review" : "Review"}</button>
           <button class="btn btn-sm ${done ? "btn-done" : "btn-primary"}" data-qp="done">${done ? "✓ Done" : "Mark done"}</button>
         </div>
-      </footer>
+      </footer>`}
     `;
 
     if (window.hljs) document.querySelectorAll("#qpanel pre code.language-java").forEach(el => hljs.highlightElement(el));
@@ -119,6 +125,7 @@ const QuestionPanel = {
 
   badges() {
     const d = this.data;
+    if (Contest.active?.blind) return `<span class="tag">🙈 Blind mode</span>`;
     if (this.item.type === "warmup") {
       return `<span class="tag">Warm-up</span><span class="tag">${esc(d.category)}</span><span class="tag muted">${d.id}</span>`;
     }
@@ -167,7 +174,7 @@ const QuestionPanel = {
       html += st.examples.map((e, i) => `<div class="qp-label">Example ${i + 1}</div><pre class="qp-pre">${esc(e)}</pre>`).join("");
       if (st.constraints.length) html += `<div class="qp-label">Constraints</div><ul class="qp-list">${st.constraints.map(c => `<li><code>${esc(c)}</code></li>`).join("")}</ul>`;
       if (st.followUps.length) html += `<div class="qp-callout">Follow up: ${st.followUps.map(esc).join(" ")}</div>`;
-      if (st.hints.length) {
+      if (st.hints.length && !Contest.active) {
         html += this.lcHintsShown
           ? `<div class="qp-label">LeetCode hints</div><ol class="qp-list">${st.hints.map(h => `<li>${esc(h)}</li>`).join("")}</ol>`
           : `<button class="linkbtn" data-qp="lchints">Show ${st.hints.length} official LeetCode hint${st.hints.length > 1 ? "s" : ""}</button>`;
@@ -178,7 +185,7 @@ const QuestionPanel = {
         <textarea class="qp-textarea" data-field="statement" rows="6" placeholder="Paste the problem statement here...">${esc(n.statement)}</textarea>`;
     }
 
-    if (d.advice) html += `<details class="tip"><summary>📌 Roadmap tip</summary><p>${esc(d.advice)}</p></details>`;
+    if (d.advice && !Contest.active) html += `<details class="tip"><summary>📌 Roadmap tip</summary><p>${esc(d.advice)}</p></details>`;
     return html + this.links();
   },
 

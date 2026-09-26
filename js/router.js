@@ -9,6 +9,7 @@ const routes = {
   "plan/warmup": WarmupPage,
   "plan/main": MainQuestPage,
   plan2: Plan2Page,
+  contest: ContestPage,
   lectures: VideosPage,
   problems: ProblemsPage,
   profile: ProfilePage,
@@ -39,6 +40,20 @@ async function renderRoute() {
   let pageName = location.hash.replace("#/", "") || "dashboard";
   if (pageName === "plan") pageName = "plan/warmup"; // purane "#/plan" links ke liye
   if (pageName === "videos") pageName = "lectures";   // purana naam
+
+  // FOCUS MODE: contest chal raha hai toh sirf contest page
+  Contest.checkTimeout();
+  const inContest = !!Contest.active;
+  document.body.classList.toggle("contest-mode", inContest);
+  if (inContest && pageName !== "contest") {
+    pageName = "contest";
+    history.replaceState(null, "", "#/contest");
+  }
+  // Contest page chhod diya toh purana result screen hata do
+  if (pageName !== "contest" && Store.state.lastContestResult) {
+    Store.state.lastContestResult = null;
+    Store.save();
+  }
   const page = routes[pageName] || routes.dashboard;
   const app = document.getElementById("app");
 

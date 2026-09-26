@@ -90,6 +90,13 @@ const Scheduler = {
       }));
   },
 
+  // Roz ka average time har section ko (pehle 14 study days ke plan se), minutes mein
+  dailySplit(plan) {
+    const days = (plan.days || []).filter(d => d.capacity > 0).slice(0, 14);
+    const avg = key => days.length ? Math.round(days.reduce((a, d) => a + d[key].reduce((x, t) => x + t.minutes, 0), 0) / days.length) : 0;
+    return { warmup: avg("warmup"), main: avg("main"), lectures: avg("lectures") };
+  },
+
   // Ek section ko uske budget mein greedy bharo
   fill(queue, budget, day) {
     let used = 0, count = 0;
@@ -106,8 +113,9 @@ const Scheduler = {
     return used;
   },
 
-  async buildPlan(mode = "core") {
-    const s = Store.settings;
+  // overrides: "what if" ke liye, jaise { lectureShare: 0 } (kuch save nahi hota)
+  async buildPlan(mode = "core", overrides = null) {
+    const s = overrides ? { ...Store.settings, ...overrides } : Store.settings;
     const weeklyHours = Object.values(s.hours).reduce((a, b) => a + b, 0);
     if (weeklyHours === 0) return { error: "Add study hours for at least one day in Settings." };
 
